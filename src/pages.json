@@ -1,16 +1,66 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/daily",
+			"style": {
+				"navigationBarTitleText": ""
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/item",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/strategy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index",
+			"iconPath": "static/image/logo.png",
+			"selectedIconPath": "static/image/logo.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/item",
+			"iconPath": "static/image/logo.png",
+			"selectedIconPath": "static/image/logo.png",
+			"text": "圣遗物"
+		}, {
+			"pagePath": "pages/daily",
+			"iconPath": "static/image/logo.png",
+			"selectedIconPath": "static/image/logo.png",
+			"text": "每日材料"
+		}, {
+			"pagePath": "pages/strategy",
+			"iconPath": "static/image/logo.png",
+			"selectedIconPath": "static/image/logo.png",
+			"text": "角色攻略"
+		}]
 	}
 }

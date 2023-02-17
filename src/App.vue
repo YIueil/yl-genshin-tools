@@ -14,4 +14,7 @@
 
 <style>
 	/*每个页面公共css */
+	html {
+		padding: 0;
+	}
 </style>
